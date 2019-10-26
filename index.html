@@ -1,0 +1,31 @@
+<html>
+<head><title>whatithink</title>
+    <link rel="stylesheet" type="text/css" href="index.css"></head>
+
+    
+    <script type="text/javascript">    
+        function reset() {
+            var ta = document.getElementById('ta');
+            if (!ta.value || ta.value != ta.defaultValue) {
+            ta.value = ta.defaultValue;
+            }
+        }   
+    
+    </script>
+    
+    
+    <body>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <center>
+    <h1>Write what are you thinking about.<br> Notes, thoughts, anything you want</h1>
+    <h2><em>It will destroy when you click the button</em></h2>
+
+    <textarea id = "ta"></textarea>
+    <br><br></br><button onclick="reset()" class="button">CLEAR</button>
+    </center><br>
+    <p><br>
+</body>
+
+
+
+</html>
