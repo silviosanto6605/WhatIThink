@@ -74,6 +74,8 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+  color:red;
+  border-color: red;
 }
 .button:active {
   -webkit-animation: active 1200ms ease 1 alternate;
