@@ -20,15 +20,18 @@ em{
 }
 
 textarea{
-	width: 340px;
-	height: 120px;
-	border: 3px solid #cccccc;
-	padding: 5px;
-    color: white;
-	font-family: Courier, sans-serif;
-	background-image:url("assets/background.gif"); 
-    resize: none;
-    margin-right:0.5px;
+  height: 120px;
+  width: 100%;
+  border: 3px solid #cccccc;
+  padding: 5px;
+  color: white;
+  font-family: Courier, sans-serif;
+  background-image:url("assets/background1.gif"); 
+  resize: none;
+  margin-right:0.5px;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -55,20 +58,23 @@ p {
   background: #4000D2;
   border-radius: 100px;
   padding: 20px 60px;
-  color: #fff;
+  color: black;
+  font-family: monospace;
+  font-size-adjust: inherit; 
   text-decoration: none;
-  font-size: 1.45em;
+  font-size: 30px;
   margin: 0.01px;
   margin-bottom: 65px;
 }
-
-/* Hover state animation applied here */
 .button:hover { 
   -webkit-animation: hover 1200ms linear 2 alternate;
   animation: hover 1200ms linear 2 alternate;
+  background-image: url(assets/fire.gif);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-
-/* Active state animation applied here */
 .button:active {
   -webkit-animation: active 1200ms ease 1 alternate;
   animation: active 1200ms ease 1 alternate; 
@@ -76,8 +82,6 @@ p {
 }
 .gray { background: #D2D2D2; }
 .gray:active { background: #b9b9b9; }
-
-/* Active state animation keyframes below */
 
 @-webkit-keyframes active { 
   0% {transform: scale(1,1);}
@@ -90,8 +94,6 @@ keyframes active {
   90% {transform: scale(.9,.88);}
   100% {transform: scale(.92,.9);}
 }
-
-/* Hover state animation keyframes below */
 
 @-webkit-keyframes hover { 
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); }
