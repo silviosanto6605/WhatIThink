@@ -1,4 +1,4 @@
-body{
+  body{
     
     background-color: #4000D2; 
     overflow: hidden;  
@@ -59,7 +59,7 @@ p {
   border-radius: 100px;
   padding: 20px 60px;
   color: black;
-  font-family: monospace;
+  font-family: inherit;
   font-size-adjust: inherit; 
   text-decoration: none;
   font-size: 30px;
