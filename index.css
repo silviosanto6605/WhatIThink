@@ -69,8 +69,8 @@ p {
 .button:hover { 
   -webkit-animation: hover 1200ms linear 2 alternate;
   animation: hover 1200ms linear 2 alternate;
-  background-image: url(assets/fire.gif);
-    -webkit-background-size: cover;
+  /*background-image: url(assets/fire.gif);
+    */-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
